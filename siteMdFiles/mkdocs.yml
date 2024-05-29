@@ -1,0 +1,25 @@
+site_name: 3XAY
+dev_addr: localhost:33333
+site_author: Ayan Bindal (3XAY)
+
+nav:
+    - Home: index.md
+    - My Work: work.md
+    - Contact: contact.md
+  
+theme:
+    name: simple-blog
+    locale: en
+    theme_style: dark
+    logo: assets/Logo.png
+    favicon: assets/Logo.png
+    components:
+        site_name: false
+        title: false
+        menu: true
+        preview: false
+        footer: false
+
+plugins:
+    - search:
+        enabled: true
