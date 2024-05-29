@@ -7,3 +7,6 @@ and the [Simple-Blog third-party theme by Fernando Celmer](https://github.com/Fe
 
 Fully open-source so you can see how it all works.
 Feel free to use this as a template for your own needs.
+
+(The testServer.bat file is for development use only, replace the
+Conda environment with yours and the path to the Mkdocs project with yours)
