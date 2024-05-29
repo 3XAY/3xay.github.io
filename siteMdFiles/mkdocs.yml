@@ -11,10 +11,10 @@ theme:
     name: simple-blog
     locale: en
     theme_style: dark
-    logo: assets/Logo.png
+    logo: assets/Logo.gif
     favicon: assets/Logo.png
     components:
-        site_name: false
+        site_name: true
         title: false
         menu: true
         preview: false
@@ -23,3 +23,6 @@ theme:
 plugins:
     - search:
         enabled: true
+
+extra_css:
+    - style.css    
