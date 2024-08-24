@@ -6,6 +6,7 @@ nav:
     - Home: index.md
     - My Work: work.md
     - Contact: contact.md
+    - Discord: well-known/discord.md
   
 theme:
     name: simple-blog
