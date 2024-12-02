@@ -7,7 +7,7 @@ I've done related to Hack Club are You ship we ships.
 You can see everything I've done below:
 
 ***
-
+<!---
 #### [HackPad](HackPad.md)
 | A ysws where you design a macropad and Hack Club ships it to you.
 
@@ -22,3 +22,4 @@ You can see everything I've done below:
 
 #### [Riceathon](Riceathon.md)
 | You rice a linux distro of your choice, they ship Hack Club socks, a Blåhaj, or Programmer socks.
+-->
