@@ -15,3 +15,6 @@
 
 ## LinkedIn
 | [Ayan Bindal](https://www.linkedin.com/in/ayan-bindal-b0037a284)
+
+## Slack
+| [3XAY](https://hackclub.slack.com/team/U07QKF9LB19)

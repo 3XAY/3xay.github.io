@@ -1,22 +1,20 @@
 ﻿## Skills
 
-* `Programming` - Over 6 years of programming experience in Python, Scratch, and Java.
-* `3D Design` - Over 4 years of CAD and 3D animation experience in Blender.
-* `Teaching` - I run a [Youtube](https://youtube.com/@3XAY) channel dedicated to teaching about technology.
-* `Servers` - I manage a Homelab consisting of 3 computers.
+* `Programming` - Over 7 years of programming experience in Python, Scratch, and Java.
+* `3D Design` - Over 5 years of CAD and 3D animation experience in Blender.
+* `Teaching` - I run a [YouTube](https://youtube.com/@3XAY) channel dedicated to teaching about technology.
+* `Servers` - I manage a Homelab consisting of one laptop.
 
 ***
 
 ## What I'm Working On
 
-    Macropad				V1.0
+    High Seas
     
-	A miniture, hobbyist grade keyboard that has:
-		- Up to 8 keys
-		- RGB Lighting
-		- A 4-inch full color, touch-capable display
-		- An ESP32, capable of running a web-server
-		- USB-C
-	And it's all at an affordable price.
+	A general You ship, we ship by Hack Club.
+	I've been working on various projects for that.
+	I'm also working on my team's game from Counterspell.
 
-Check it out at [my Youtube.](https://youtube.com/playlist?list=PL8pZ9v0F1Ks129zUu4XXuUV3RIhgbw_p-&si=nOwj428BzX6T7yA6)
+Check out what I'm working on [here](https://scrapbook.hackclub.com/3XAY).
+</br>
+The GitHub for the game is [here](https://github.com/Kolin63/BetsAndRegrets).

@@ -18,3 +18,6 @@
 		
 #### [FakeOS](Projects/fakeos.md)
 | A Python-based app builder and launcher.
+
+### [Hack Club](Projects/HackClub/HackClub.md)
+| Various projects I've done for Hack Club (not endorsed).
