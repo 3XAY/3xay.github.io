@@ -2,7 +2,7 @@
 ***
 
 ### A 3rd Grade Hobby...
-<img align="right" src="https://3xay.github.io/assets/tinybit.png">
+<img align="right" src="https://3xay.github.io/assets/Robotics/tinybit.png">
 I was sitting in my 3rd grade computer lab, learning about technology and all of its amazing uses.
 It was then that I was inspired to pursue technology.
 I was at the age where toy robots were fairly basic, but regardless, I loved them.
@@ -16,7 +16,7 @@ But even this wasn't enough, I needed more.
 
 </br>
 <h3 align="right">To Competitive Robotics</h3>
-<img align="left" src="https://3xay.github.io/assets/centerstagerobot.png">
+<img align="left" src="https://3xay.github.io/assets/Robotics/centerstagerobot.png">
 <div align="right">
 FLL or FIRST Lego League is a robotics competition based off of Lego and EV3 robots.
 The primary focus of the FIRST foundation is to expose the new generation to STEM and healthy collaboration with teammates.
