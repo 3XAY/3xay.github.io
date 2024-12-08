@@ -7,10 +7,10 @@ I've done related to Hack Club are You ship we ships.
 You can see everything I've done below:
 
 ***
-<!---
 #### [HackPad](HackPad.md)
 | A ysws where you design a macropad and Hack Club ships it to you.
 
+<!---
 #### [Counterspell](Counterspell.md)
 | A global game jam that happened in over 100 cities, super fun!
 

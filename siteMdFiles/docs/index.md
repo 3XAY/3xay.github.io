@@ -13,7 +13,7 @@
     
 	A general You ship, we ship by Hack Club.
 	I've been working on various projects for that.
-	I'm also working on my team's game from Counterspell.
+	Primarily working on a weather station project (as of now)
 
 Check out what I'm working on [here](https://scrapbook.hackclub.com/3XAY).
 </br>

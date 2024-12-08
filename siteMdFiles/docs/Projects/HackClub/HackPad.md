@@ -1,5 +1,10 @@
-# Hackpad - [Watch it on YouTube](https://youtube.com/playlist?list=PL8pZ9v0F1Ks2gfHrP7J-pUTj4NAnL8gHc&si=BFbylAYve3Dny7cF)
+# Hackpad
 ***
+<img src="https://github.io/assets/github.png">
+[YouTube](https://youtube.com/playlist?list=PL8pZ9v0F1Ks2gfHrP7J-pUTj4NAnL8gHc&si=BFbylAYve3Dny7cF)
+</br>
+<img src="https://github.io/assets/youtube.png">
+[Github](https://github.com/3XAY/3XAY_HackPad)
 
 ### What is a Macropad?
 <img align="right" src="https://3xay.github.io/assets/HackPad/RenderSideView.png">
@@ -44,5 +49,5 @@ And the most important part is most people tend to use matrix wiring, I used dir
 On top of that, the submission date was almost here and I needed something. I ended up making a custom firmware in CircuitPython,  which was pretty rushed.
 </div>
 
-# WAIT FOR HACKPAD TO ARRIVE TO CONT.
-# NEXT PART IS ASSEMBLY 
+# THIS ARTICLE IS NOT COMPLETE
+# MORE WILL BE ADDED ONCE HACKPADS ARE SHIPPED
