@@ -1,9 +1,9 @@
 # Hackpad
 ***
-<img src="https://3xay.github.io/assets/youtube.png">
+<img align="left" src="https://3xay.github.io/assets/youtube.png">-
 [YouTube](https://youtube.com/playlist?list=PL8pZ9v0F1Ks2gfHrP7J-pUTj4NAnL8gHc&si=BFbylAYve3Dny7cF)
 </br>
-<img src="https://3xay.github.io/assets/github.png">
+<img align="left" src="https://3xay.github.io/assets/github.png">-
 [Github](https://github.com/3XAY/3XAY_HackPad)
 
 ### What is a Macropad?
@@ -21,8 +21,8 @@ Need to do a simple key combo? Done! Macropads are such **AMAZING** tools, so wh
 <div align="right">
 The very first step is to design the PCB, which was actually my favorite part. I've never actually dealt with PCBs or their designs, so learning that was a challenge at first.
 Eventually, with some guides and tutorials, I got the hang of KiCad. I made a few revisions (3 revisions to be exact) of my PCB schematic until I got all of the features I wanted.
-While making the schematic, I found it incredibly relaxing to place a few components down and map each individual trace to each component. The silkscreen on the other hand, was 
-<img align="left" src="https://3xay.github.io/assets/HackPad/PCB3DViewFrontWithModels.png">
+While making the schematic, I found it incredibly relaxing to place a few components down and map each individual trace to each component.
+<img align="left" src="https://3xay.github.io/assets/HackPad/PCB3DViewFrontWithModels.png"> The silkscreen on the other hand, was 
 incredibly annoying. After I spent a bunch of time doing the silkscreen, it turns out it was too thin to be printed, so I had to go and redo everything to make sure it was thick enough.
 The good part, however, is that in the end, I got a fully functional and fairly aesthetic PCB that I was proud of.
 </div>
