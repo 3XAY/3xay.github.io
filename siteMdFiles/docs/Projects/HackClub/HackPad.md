@@ -1,9 +1,9 @@
 # Hackpad
 ***
-<img src="https://github.io/assets/github.png">
+<img src="https://3xay.github.io/assets/github.png">
 [YouTube](https://youtube.com/playlist?list=PL8pZ9v0F1Ks2gfHrP7J-pUTj4NAnL8gHc&si=BFbylAYve3Dny7cF)
 </br>
-<img src="https://github.io/assets/youtube.png">
+<img src="https://3xay.github.io/assets/youtube.png">
 [Github](https://github.com/3XAY/3XAY_HackPad)
 
 ### What is a Macropad?
