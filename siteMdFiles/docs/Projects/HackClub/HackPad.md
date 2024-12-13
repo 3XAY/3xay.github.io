@@ -46,7 +46,7 @@ and I forgot to make the acrylic 3mm thick, but in the end, I caught all of my e
 This is the part that I thought would be the easiest, but oh boy was I wrong. Turns out, firmware is <b>hard</b>, like <i>really</i> hard...
 Because I had a QMK compatible MCU (Microcontroller Unit), I thought it would be smooth sailing from here, but I seemed to have forgotten, that I need to actually set it up.
 And the worst part, was that my macropad was incredibly weird. Most people have 0 or 1 knobs, I had 3... Most people don't tend to have a screen, I did...
-And the most important part is most people tend to use matrix wiring, I used direct wiring... (learn about the difference [here](https://youtu.be/V0M98DuhhBI?si=TxXg1oUVK2Hfz1gU&t=393).) Basically, all of these small problems added up and made it super hard to learn QMK.
+And the most important part is most people tend to use matrix wiring, I used direct wiring... (learn about the difference <a href="https://youtu.be/V0M98DuhhBI?si=TxXg1oUVK2Hfz1gU&t=393">here</a>). Basically, all of these small problems added up and made it super hard to learn QMK.
 On top of that, the submission date was almost here and I needed something. I ended up making a custom firmware in CircuitPython,  which was pretty rushed.
 </div>
 
