@@ -21,9 +21,16 @@ theme:
         footer: false
 
 plugins:
-    - search:
-        enabled: true
     - open-in-new-tab:
+    - spellcheck:
+        min_length: 2
+        max_capital: 1
+        known_words: knownWords.txt
+
 
 extra_css:
     - style.css
+
+#Add JS with:
+#extra_javascript:
+#   - jsFile.js
