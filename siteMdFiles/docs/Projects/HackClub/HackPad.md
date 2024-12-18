@@ -32,7 +32,7 @@ The good part, however, is that in the end, I got a fully functional and fairly 
 <img align="right" src="https://3xay.github.io/assets/HackPad/finishedCaseTopDown.png">
 I'm personally very comfortable in Blender, which is why that's what I used to make my case. The very first problem I faced was importing
 the PCB design from KiCad to Blender. It was fairly easy to do in other CAD software, but kinda annoying to do in Blender. Finally, 
-after a lot of research, I found a tool that converted the PCB to a file that could be imported into Blender. It's by [30350n, you should go check it out.](https://github.com/30350n/pcb2blender)
+after a lot of research, I found a tool that converted the PCB to a file that could be imported into Blender. It's by [30350n](https://github.com/30350n/pcb2blender), you should go check it out.
 The only problem with this tool was that the textures, although super high-quality, were incredibly laggy, so I spent a lot of time making my own textures, which is why it doesn't look great.
 But after the PCB was fully modeled (thanks to [PonderSlime](https://github.com/PonderSlime/) for the 3D models for the parts), it was time to design the actual case.
 To be honest, I was actually procrastinating a lot because this is the part I got stuck on for my last macropad, so it was a bit scary. Thankfully, I had lots of guides this time,
