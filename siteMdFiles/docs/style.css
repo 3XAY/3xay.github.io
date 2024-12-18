@@ -38,4 +38,8 @@ a:not(:has(> *))::before {
       grid-auto-flow: column;
     }
   }
-  
+
+/*Adds a cross-fade transition between pages*/
+@view-transition {
+  navigation: auto;
+}
