@@ -21,6 +21,7 @@ theme:
         footer: false
 
 plugins:
+    - search:
     - open-in-new-tab:
     - spellcheck:
         min_length: 2

@@ -2,10 +2,7 @@
     background-image: url(assets/menuIcon.png);
 }
 
-/*Hides the search icon, further hiding the fact that this is built on a documentation template...*/
-.fa.fa-search{
-  display: none;
-}
+
 /*the :not(:has(> *)) before the element state is so that it only applies to text, and not images
 this is useful for things like not animating the search icon, which is technically a link.*/
 a:not(:has(> *))::before {  
