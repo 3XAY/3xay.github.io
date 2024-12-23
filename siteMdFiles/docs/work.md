@@ -9,6 +9,9 @@
 #### [Robotics](Projects/robotics.md)
 | From toys to competitions.
 
+#### [HackPad](Projects/HackClub/HackPad.md)
+| A portal to creativity.
+
 <!---
 #### [Computer Vision](Projects/cv.md)
 | Changing the way we interact with computers.
@@ -23,7 +26,7 @@
 | A Python-based app builder and launcher.
 -->
 
-### [Hack Club](Projects/HackClub/HackClub.md)
+#### [Hack Club](Projects/HackClub/HackClub.md)
 | Various projects I've done for Hack Club (not endorsed).
 ***
 More is being added

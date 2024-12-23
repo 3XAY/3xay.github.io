@@ -1,10 +1,9 @@
 # Hackpad
 ***
-<img align="left" src="https://3xay.github.io/assets/youtube.png">-
-[YouTube](https://youtube.com/playlist?list=PL8pZ9v0F1Ks2gfHrP7J-pUTj4NAnL8gHc&si=BFbylAYve3Dny7cF)
+<a href="https://hackpad.hackclub.com" id="imgLink"> <img align="left" src="https://3xay.github.io/assets/hc.png" id="imgIcon"></a>
+<a href="https://youtube.com/playlist?list=PL8pZ9v0F1Ks2gfHrP7J-pUTj4NAnL8gHc&si=BFbylAYve3Dny7cF" id="imgLink"><img align="left" src="https://3xay.github.io/assets/youtube.png" id="imgIcon"></a>
+<a href="https://github.com/3XAY/3XAY_HackPad" id="imgLink"><img align="left" src="https://3xay.github.io/assets/github.png" id="imgIcon"></a>
 </br>
-<img align="left" src="https://3xay.github.io/assets/github.png">-
-[Github](https://github.com/3XAY/3XAY_HackPad)
 
 ### What is a Macropad?
 <img align="right" src="https://3xay.github.io/assets/HackPad/RenderSideView.png">
