@@ -1,6 +1,8 @@
 .navbar-toggler-icon {
     background-image: url(assets/menuIcon.png);
 }
+
+
 /*the :not(:has(> *)) before the element state is so that it only applies to text, and not images
 this is useful for things like not animating the search icon, which is technically a link.*/
 a:not(:has(> *))::before {  
@@ -42,4 +44,42 @@ a:not(:has(> *))::before {
 /*Adds a cross-fade transition between pages*/
 @view-transition {
   navigation: auto;
+}
+
+/*Same font as VSC, opensourced by Microsoft*/
+@font-face {
+  font-family: "Cascadia Code", monospace;
+  src: url(assets/CascadiaCode/CascadiaCode-Regular.otf);
+}
+
+/*Modifies the styling for the codeblocks*/
+code{
+  font-family: "Cascadia Code";
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .1rem .3rem .2rem;
+  border-radius: .2rem;
+}
+
+pre{
+  font-family: "Cascadia Code";
+  word-wrap: break-word;
+  box-decoration-break: clone;
+  padding: .2rem 1rem .5rem;
+  border-radius: .5rem;
+}
+
+#imgLink{
+  text-decoration: none;
+}
+
+#imgIcon{
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  width: 6.5%;
+  transition: width 0.5s;
+}
+
+#imgIcon:hover{
+  width: 8%;
 }
