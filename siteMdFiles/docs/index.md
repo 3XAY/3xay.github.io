@@ -12,9 +12,7 @@
     High Seas
     
 	A general You ship, we ship by Hack Club.
-	I've been working on various projects for that.
-	Primarily working on a weather station project (as of now)
+	It's also Holiday season, so I've been taking this time to explore new projects.
 
-Check out what I'm working on [here](https://scrapbook.hackclub.com/3XAY).
-</br>
-The GitHub for the game is [here](https://github.com/Kolin63/BetsAndRegrets).
+	YouTube
+	There's always more to share!

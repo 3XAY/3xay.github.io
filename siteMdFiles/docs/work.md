@@ -12,12 +12,12 @@
 #### [HackPad](Projects/HackClub/HackPad.md)
 | A portal to creativity.
 
+#### [Youtube](Projects/youtube.md)
+| Inspiring the world, one viewer at a time.
+
 <!---
 #### [Computer Vision](Projects/cv.md)
 | Changing the way we interact with computers.
-
-#### [Youtube](Projects/youtube.md)
-| Inspiring the world, one viewer at a time.
 		
 #### [Homelab](Projects/homelab.md)
 | Server management at home.

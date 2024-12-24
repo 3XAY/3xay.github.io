@@ -69,10 +69,12 @@ pre{
   border-radius: .5rem;
 }
 
+/*Ensures that all link icons aren't underlined*/
 #imgLink{
   text-decoration: none;
 }
 
+/*Sets the icons at the top of articles' settings, also has an animation upon hovering*/
 #imgIcon{
   padding-left: 1.5%;
   padding-right: 1.5%;

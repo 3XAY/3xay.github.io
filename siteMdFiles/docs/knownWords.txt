@@ -15,3 +15,8 @@ macropads
 modeled
 oh
 timesavers
+proxmox
+pihole
+vaio
+tailscale
+devlogs

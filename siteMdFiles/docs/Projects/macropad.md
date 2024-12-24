@@ -1,1 +1,1 @@
-Need to work on / finish this projcet before posting
+Need to work on / finish this project before posting

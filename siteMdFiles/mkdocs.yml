@@ -23,7 +23,7 @@ theme:
 plugins:
     - search:
     - open-in-new-tab:
-    - spellcheck:
+    - spellcheck: #Run the following in the console: mkdocs build -s
         min_length: 2
         max_capital: 1
         known_words: knownWords.txt
