@@ -85,3 +85,8 @@ pre{
 #imgIcon:hover{
   width: 8%;
 }
+
+/*Round all of the corners for all images*/
+img{
+  border-radius: 20px;
+}

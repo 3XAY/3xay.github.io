@@ -10,10 +10,10 @@ You can see everything I've done (related to Hack Club) below:
 #### [HackPad](HackPad.md)
 | A ysws where you design a macropad and Hack Club ships it to you.
 
-<!---
 #### [Counterspell](Counterspell.md)
-| A global game jam that happened in over 100 cities, super fun!
+| A global game jam that happened in over 50 cities, super fun!
 
+<!---
 #### [Sprig](Sprig.md)
 | A Raspberry Pi Pico W with a screen, 8 buttons, a speaker, and 2 AAA batteries!
 

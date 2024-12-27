@@ -20,3 +20,8 @@ pihole
 vaio
 tailscale
 devlogs
+Counterspell
+plinko
+remoting
+voicelines
+counterspell
