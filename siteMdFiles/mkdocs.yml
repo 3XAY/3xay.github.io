@@ -8,17 +8,10 @@ nav:
     - Contact: contact.md
   
 theme:
-    name: simple-blog
-    locale: en
-    theme_style: dark
+    name: material
+    locale: en_US
     logo: assets/Logo.gif
     favicon: assets/Logo.png
-    components:
-        site_name: true
-        title: false
-        menu: true
-        preview: false
-        footer: false
 
 plugins:
     - search:
@@ -30,7 +23,9 @@ plugins:
 
 
 extra_css:
-    - style.css
+    - stylesheets/style.css
+    - stylesheets/simple-styles.css
+    - stylesheets/simple-theme.css
 
 #Add JS with:
 #extra_javascript:
