@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Hack Club
 
 Hack Club is a global non-profit, founded by Zach Latta. I found it in 10th grade, and have been doing various projects related to it.

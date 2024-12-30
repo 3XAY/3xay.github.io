@@ -1,0 +1,19 @@
+.md-grid {
+    max-width: 1080;
+}
+
+[data-md-color-scheme="slate"] {
+    --md-code-bg-color: white;
+    --md-primary-fg-color: black;
+    --md-primary-fg-color--dark: black;
+    --md-accent-bg-color: black;
+    --md-default-bg-color: black;
+  }
+
+[data-md-color-primary=black] .md-tabs{
+    background-color: black;
+}
+
+[data-md-color-primary=black] .md-header{
+    background-color: black;
+}

@@ -1,4 +1,10 @@
-﻿## Skills
+﻿---
+hide:
+  - navigation
+  - toc
+---
+
+## Skills
 
 * `Programming` - Over 7 years of programming experience in Python, Scratch, and Java.
 * `3D Design` - Over 5 years of CAD and 3D animation experience in Blender.

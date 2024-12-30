@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Hackpad
 ***
 <a href="https://hackpad.hackclub.com" id="imgLink"> <img align="left" src="https://3xay.github.io/assets/hc.png" id="imgIcon"></a>

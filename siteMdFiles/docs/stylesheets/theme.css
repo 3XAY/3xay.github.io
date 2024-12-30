@@ -1,0 +1,41 @@
+.md-typeset code{
+    color: black;
+}
+  
+.md-header{
+    color: white;
+}
+  
+.md-typeset h1{
+    color: white;
+}
+  
+.md-typeset h2{
+    color: white;
+}
+  
+.md-typeset h3{
+    color: white;
+}
+  
+.md-typeset h4{
+    color: white;
+}
+  
+li{
+    color: white;
+}
+  
+p{
+    color: white;
+}
+  
+.md-typeset a{
+    color: white;
+    text-decoration: underline;
+}
+
+.md-typeset a:hover{
+    color: white;
+    text-decoration: underline;
+}

@@ -9,9 +9,27 @@ nav:
   
 theme:
     name: material
-    locale: en_US
     logo: assets/Logo.gif
     favicon: assets/Logo.png
+    palette:
+        scheme: slate
+        primary: black
+        accent: amber
+    font:
+        text: Fira Mono
+        code: Cascadia Code
+    language: en
+    features:
+        - navigation.instant.progress
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.tabs.sticky
+        - navigation.prune
+        - navigation.indexes
+        - toc.follow
+        - navigation.top
+        - search.suggest
+
 
 plugins:
     - search:
@@ -24,8 +42,8 @@ plugins:
 
 extra_css:
     - stylesheets/style.css
-    - stylesheets/simple-styles.css
-    - stylesheets/simple-theme.css
+    - stylesheets/extra.css
+    - stylesheets/theme.css
 
 #Add JS with:
 #extra_javascript:

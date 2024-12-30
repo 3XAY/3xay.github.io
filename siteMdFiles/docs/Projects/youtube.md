@@ -1,4 +1,10 @@
-<h1>Hackpad</h1>
+---
+hide:
+  - navigation
+  - toc
+---
+
+<h1>YouTube</h1>
 <iframe height="80px" width="300px" frameborder="0" src=https://livecounts.io/embed/youtube-live-subscriber-counter/UCSwkHhVTIxAKU1ZZXbtSjog style="border: 0; width:300px; height:80px;"></iframe>
 ***
 <iframe width="360" height="200" src="https://www.youtube.com/embed/vHCAtmQSPYg?si=w6Q1letytDaj1YSf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
