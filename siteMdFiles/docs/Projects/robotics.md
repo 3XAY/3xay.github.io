@@ -19,11 +19,10 @@ With its pins, you could simply slot it into a robotics kit, allowing for even m
 Using that "toy", I was able to learn about the basic of programming a robot and microcontroller.
 It even enabled me to move up from block-based programming to text-based programming.
 But even this wasn't enough, I needed more.
-
 </br>
-<h3 align="right">To Competitive Robotics</h3>
-<img align="left" src="https://3xay.github.io/assets/Robotics/centerstagerobot.png">
-<div align="right">
+
+### To Competitive Robotics
+<img align="right" src="https://3xay.github.io/assets/Robotics/centerstagerobot.png">
 FLL or FIRST Lego League is a robotics competition based off of Lego and EV3 robots.
 The primary focus of the FIRST foundation is to expose the new generation to STEM and healthy collaboration with teammates.
 After spending an year in an FLL team, I had learned how to manage a team, build a robot with Lego, program EV3 bricks, and so much more.
@@ -33,4 +32,3 @@ I joined team 18061, Simply Complex in the PowerPlay season. We built a fairly o
 I learned how to program in Java, the basics of a real robot, and got a chance to use computer vision technologies such as OpenCV.
 The following year was the CenterStage Season where I took the role of programming lead.
 That year, we built a fully custom robot, used advanced technologies such as PID, and further honed our robotics skills.
-</div>

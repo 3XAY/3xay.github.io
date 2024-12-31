@@ -28,7 +28,9 @@ theme:
         - navigation.indexes
         - toc.follow
         - navigation.top
-        - search.suggest
+        - search.highlight
+        - search.share
+        - 
 
 
 plugins:

@@ -19,18 +19,16 @@ Well, you know how `CTRL+C` and `CTRL+V` are copy and paste? There are actually 
 I personally use them to do things like open Task Manager, switch between tabs, close windows, open tabs in a new window, render in Blender and SO MUCH MORE!
 The best part about a macropad is that it can do anything you want it to! Need it to do a specific mouse action? Done. Need it to type a long string of words that you use a lot? Done.
 Need to do a simple key combo? Done! Macropads are such **AMAZING** tools, so why don't we make one?
-
 </br>
-<h3 align="right">Step 1: Designing the PCB</h3>
-<img align="left" src="https://3xay.github.io/assets/HackPad/FinishedPCB.png">
-<div align="right">
+
+### Step 1: Designing the PCB
+<img align="right" src="https://3xay.github.io/assets/HackPad/FinishedPCB.png">
 The very first step is to design the PCB, which was actually my favorite part. I've never actually dealt with PCBs or their designs, so learning that was a challenge at first.
 Eventually, with some guides and tutorials, I got the hang of KiCad. I made a few revisions (3 revisions to be exact) of my PCB schematic until I got all of the features I wanted.
 While making the schematic, I found it incredibly relaxing to place a few components down and map each individual trace to each component.
 <img align="left" src="https://3xay.github.io/assets/HackPad/PCB3DViewFrontWithModels.png"> The silkscreen on the other hand, was 
 incredibly annoying. After I spent a bunch of time doing the silkscreen, it turns out it was too thin to be printed, so I had to go and redo everything to make sure it was thick enough.
 The good part, however, is that in the end, I got a fully functional and fairly aesthetic PCB that I was proud of.
-</div>
 </br>
 
 ### Step 2: Making the Case
@@ -43,17 +41,15 @@ But after the PCB was fully modeled (thanks to [PonderSlime](https://github.com/
 To be honest, I was actually procrastinating a lot because this is the part I got stuck on for my last macropad, so it was a bit scary. Thankfully, I had lots of guides this time,
 and it was a much simpler design. I started with the bottom, and then used that to make the switch plate and top plate. I had some problems (I didn't make enough holes in the switch plate)
 and I forgot to make the acrylic 3mm thick, but in the end, I caught all of my errors and was done with the plate.
-
 </br>
-<h3 align="right">Step 3: Firmware</h3>
-<img align="left" src="https://3xay.github.io/assets/HackPad/circuitPythonLogo.png">
-<div align="right">
+
+### Step 3: Firmware
+<img align="right" src="https://3xay.github.io/assets/HackPad/circuitPythonLogo.png">
 This is the part that I thought would be the easiest, but oh boy was I wrong. Turns out, firmware is <b>hard</b>, like <i>really</i> hard...
 Because I had a QMK compatible MCU (Microcontroller Unit), I thought it would be smooth sailing from here, but I seemed to have forgotten, that I need to actually set it up.
 And the worst part, was that my macropad was incredibly weird. Most people have 0 or 1 knobs, I had 3... Most people don't tend to have a screen, I did...
 And the most important part is most people tend to use matrix wiring, I used direct wiring... (learn about the difference <a href="https://youtu.be/V0M98DuhhBI?si=TxXg1oUVK2Hfz1gU&t=393">here</a>). Basically, all of these small problems added up and made it super hard to learn QMK.
 On top of that, the submission date was almost here and I needed something. I ended up making a custom firmware in CircuitPython,  which was pretty rushed.
-</div>
 
-# THIS ARTICLE IS NOT COMPLETE
-# MORE WILL BE ADDED ONCE HACKPADS ARE SHIPPED
+##### THIS ARTICLE IS NOT COMPLETE
+##### MORE WILL BE ADDED ONCE HACKPADS ARE SHIPPED
