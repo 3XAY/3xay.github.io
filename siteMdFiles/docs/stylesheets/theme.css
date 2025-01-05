@@ -18,7 +18,7 @@ body{
     color: white;
     text-transform: uppercase;
     font-size: 2.2rem;
-    line-height: 0.1rem;
+    line-height: 2.2rem;
     font-weight: 500;
 }
   
@@ -54,6 +54,7 @@ body{
     margin: 1rem 0;
     border-bottom: 1px solid;
 }
+
   
 li{
     color: white;
@@ -90,4 +91,9 @@ body{
 
 .md-footer{
     display: none;
+}
+
+.toclink{
+    line-height: 2rem;
+    font-size: 80%;
 }

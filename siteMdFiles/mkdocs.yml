@@ -1,14 +1,17 @@
 site_name: 3XAY
 dev_addr: localhost:33333
 site_author: Ayan Bindal (3XAY)
+site_url: https://3xay.github.io/
 
 nav:
     - Home: index.md
     - My Work: work.md
     - Contact: contact.md
+    - Blog: blog/index.md
   
 theme:
     name: material
+    custom_dir: overrides
     logo: assets/Logo.gif
     favicon: assets/Logo.png
     palette:
@@ -21,16 +24,15 @@ theme:
     language: en
     features:
         - navigation.instant.progress
-        - navigation.tracking
         - navigation.tabs
         - navigation.tabs.sticky
         - navigation.prune
         - navigation.indexes
         - toc.follow
+        - toc.integrate
         - navigation.top
         - search.highlight
         - search.share
-        - 
 
 
 plugins:
@@ -40,6 +42,51 @@ plugins:
         min_length: 2
         max_capital: 1
         known_words: knownWords.txt
+    - blog:
+        blog_dir: blog
+        post_excerpt: optional
+        post_date_format: medium
+        post_url_format: "{categories}/{slug}"
+        post_url_max_categories: 2
+        post_excerpt_max_authors: 3
+        post_excerpt_max_categories: 2
+        post_readtime_words_per_minute: 240
+        categories_name: Categories
+        categories_allowed:
+            - Tech
+            - Misc
+            - Peripherals
+            - Input devices
+            - Displays
+            - Audio
+            - Dev
+            - YouTube
+            - Games
+            - Tools
+            - Reviews
+            - Announcements
+            - Blender
+            - CAD
+            - Designing
+            - 3D Printing
+            - Computers
+            - Test
+            - Hack Club
+        pagination_per_page: 5
+        pagination_url_format: "page_{page}"
+        pagination_format: "$link_first $link_previous ~2~ $link_next $link_last"
+        pagination_if_single_page: true
+        pagination_keep_content: true
+        draft_if_future_date: true
+        blog_toc: false
+    - tags
+    - rss:
+        match_path: blog/posts/.*
+        date_from_meta:
+            as_creation: date
+        categories:
+            - categories
+            - tags
 
 
 extra_css:

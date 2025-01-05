@@ -1,2 +1,3 @@
-#Ignore the .vs folder
+#Ignore vs folders
 .vs/
+.vscode/

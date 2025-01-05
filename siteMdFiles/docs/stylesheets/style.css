@@ -1,65 +1,6 @@
 /*the :not(:has(> *)) before the element state is so that it only applies to text, and not images
 this is useful for things like not animating the search icon, which is technically a link.*/
-.md-typeset a:not(:has(> *))::before {  
-    transform: scaleX(0);
-    transform-origin: bottom right;
-  }
-  
-.md-typeset a:not(:has(> *)):hover::before {
-    transform: scaleX(1);
-    transform-origin: bottom left;
-}
-  
-.md-typeset a:not(:has(> *))::before {
-    content: " ";
-    display: block;
-    position: absolute;
-    top: 0; right: 0; bottom: 0; left: 0;
-    inset: 0 0 0 0;
-    background: hsla(200, 100%, 64%, 0.827);
-    z-index: -1;
-    transition: transform 0.2s ease;
-}
-  
-.md-typeset a:not(:has(> *)) {
-    position: relative;
-}
 
-.md-typeset a:focus-visible{
-    outline: 3px solid hsla(200, 100%, 64%, 0.827);
-    border-radius: 2px;
-}
-
-/*Repeated for normal links*/
-a:not(:has(> *))::before {  
-  transform: scaleX(0);
-  transform-origin: bottom right;
-}
-
-a:not(:has(> *)):hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-a:not(:has(> *))::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  inset: 0 0 0 0;
-  background: hsla(200, 100%, 64%, 0.827);
-  z-index: -1;
-  transition: transform 0.2s ease;
-}
-
-a:not(:has(> *)) {
-  position: relative;
-}
-
-a:focus-visible{
-  outline: 3px solid hsla(200, 100%, 64%, 0.827);
-  border-radius: 2px;
-}
 
 /*Adds a cross-fade transition between pages*/
 @view-transition {
