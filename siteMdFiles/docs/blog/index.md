@@ -1,3 +1,9 @@
+---
+hide:
+  - navigation
+  - toc
+---
+
 # Blog
 
 I'll take about tech and other stuff here!
