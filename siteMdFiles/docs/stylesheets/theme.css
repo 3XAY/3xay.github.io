@@ -26,7 +26,7 @@ body{
     color: white;
     text-transform: uppercase;
     font-size: 1.8rem;
-    line-height: 0.9rem;
+    line-height: 1.8rem;
     font-weight: 500;
 }
   
@@ -86,7 +86,7 @@ html, body{
 }
 
 body{
-    padding: 0 150px
+    padding: 0 2rem;
 }
 
 .md-footer{
