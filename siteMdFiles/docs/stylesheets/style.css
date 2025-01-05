@@ -28,3 +28,8 @@ this is useful for things like not animating the search icon, which is technical
 img{
   border-radius: 20px;
 }
+
+/*Increase size of codeblocks*/
+.md-typeset code{
+	padding: .2941176471em;
+}
