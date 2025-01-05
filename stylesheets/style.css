@@ -1,0 +1,35 @@
+/*the :not(:has(> *)) before the element state is so that it only applies to text, and not images
+this is useful for things like not animating the search icon, which is technically a link.*/
+
+
+/*Adds a cross-fade transition between pages*/
+@view-transition {
+  navigation: auto;
+}
+
+/*Ensures that all link icons aren't underlined*/
+#imgLink{
+  text-decoration: none;
+}
+
+/*Sets the icons at the top of articles' settings, also has an animation upon hovering*/
+#imgIcon{
+  padding-left: 1.5%;
+  padding-right: 1.5%;
+  width: 6.5%;
+  transition: width 0.5s;
+}
+
+#imgIcon:hover{
+  width: 8%;
+}
+
+/*Round all of the corners for all images*/
+img{
+  border-radius: 20px;
+}
+
+/*Increase size of codeblocks*/
+.md-typeset code{
+	padding: .2941176471em;
+}
