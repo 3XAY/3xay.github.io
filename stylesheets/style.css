@@ -33,3 +33,18 @@ img{
 .md-typeset code{
 	padding: .2941176471em;
 }
+
+.md-typeset a:hover{
+	color: rgb(255, 170, 0);
+	text-decoration: underline;
+}
+
+a{
+	color: white;
+}
+
+.md-typeset a{
+	color: white;
+	transition: 0.3s ease;
+	text-decoration: underline;
+}

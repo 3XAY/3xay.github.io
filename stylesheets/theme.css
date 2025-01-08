@@ -47,12 +47,28 @@ body{
 }
 
 .md-typeset hr{
-    opacity: .25;
+    opacity: 1;
     color: white;
     display: block;
     overflow: hidden;
     margin: 1rem 0;
     border-bottom: 1px solid;
+}
+
+.md-nav--primary .md-nav__item--active>.md-nav__link{
+	color: rgb(255, 137, 0);
+}
+
+.md-icon svg{
+	fill: rgb(255, 170, 0);
+}
+
+.md-nav__link svg{
+	fill: rgb(255, 170, 0);
+}
+
+li::marker{
+	color: rgb(255, 170, 0);
 }
 
   
@@ -63,20 +79,6 @@ li{
 p{
     color: white;
     font-size: 120%;
-}
-  
-.md-typeset a{
-    color: white;
-    text-decoration: underline;
-}
-
-.md-typeset a:hover{
-    color: white;
-    text-decoration: underline;
-}
-
-a{
-    color: white;
 }
 
 html, body{
@@ -96,4 +98,21 @@ body{
 .toclink{
     line-height: 2rem;
     font-size: 80%;
+}
+
+.accent-line{
+	color: rgb(255, 170, 0);
+	font-weight: 900;
+}
+
+.md-meta__item::after{
+	color:rgb(255, 170, 0);
+}
+
+.md-meta__link{
+	color: white;
+}
+
+.md-ellipsis{
+	font-weight: 600;
 }

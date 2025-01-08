@@ -94,6 +94,5 @@ extra_css:
     - stylesheets/extra.css
     - stylesheets/theme.css
 
-#Add JS with:
-#extra_javascript:
-#   - jsFile.js
+extra_javascript:
+   - javascript/colorPipe.js
