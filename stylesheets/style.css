@@ -16,12 +16,12 @@ this is useful for things like not animating the search icon, which is technical
 #imgIcon{
   padding-left: 1.5%;
   padding-right: 1.5%;
-  width: 3.5rem;
+  width: 3.8rem;
   transition: width 0.5s;
 }
 
 #imgIcon:hover{
-  width: 4rem;
+  width: 4.3rem;
 }
 
 /*Round all of the corners for all images*/
@@ -47,4 +47,24 @@ a{
 	color: white;
 	transition: 0.3s ease;
 	text-decoration: underline;
+}
+
+.md-typeset p{
+	font-size: 0.95em;
+	line-height: 1.75em;
+	word-spacing: 0.001em;
+	letter-spacing: 0.01em;
+}
+
+/*https://github.com/drush-ops/drush/blob/13.x/docs/css/extra.drush.css*/
+[data-md-toggle="search"]:not(:checked) ~ .md-header .md-search__form::after {
+    position: absolute;
+    top: .25rem;
+    right: .2rem;
+    display: block;
+    padding: .1rem .3rem;
+    color: rgb(255, 170, 0);
+    font-weight: bold;
+    font-size: .8rem;
+    content: "[/]";
 }

@@ -9,11 +9,8 @@ hide:
 
 <!---
 #### [Macropad](Projects/macropad.md)
-| A miniture development keyboard.
+| A miniature development keyboard.
 -->
-
-#### [Robotics](Projects/robotics.md)
-| From toys to competitions.
 
 #### [HackPad](Projects/HackClub/HackPad.md)
 | A portal to creativity.
@@ -37,6 +34,9 @@ hide:
 
 #### [Counterspell](Projects/HackClub/Counterspell.md)
 | A global game jam that happened in over 50 cities, super fun!
+
+#### [Robotics](Projects/robotics.md)
+| From toys to competitions.
 
 ***
 More is being added

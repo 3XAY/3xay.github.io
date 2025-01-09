@@ -299,43 +299,109 @@
       </label>
 
       <!-- Search interface -->
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
-          </a>
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
+      <!--
+  Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Search interface -->
+<div class="md-search" data-md-component="search" role="dialog">
+	<label class="md-search__overlay" for="__search"></label>
+	<div class="md-search__inner" role="search">
+	  <form class="md-search__form" name="search">
+  
+		<!-- Search input -->
+		<input
+		  type="text"
+		  class="md-search__input"
+		  name="query"
+		  aria-label="Search"
+		  placeholder="Search"
+		  autocapitalize="off"
+		  autocorrect="off"
+		  autocomplete="off"
+		  spellcheck="false"
+		  data-md-component="search-query"
+		  required
+		/>
+  
+		<!-- Button to open search -->
+		<label class="md-search__icon md-icon" for="__search">
+		  
+		  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+		  
+		  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+		</label>
+		<!-- Search options -->
+		<nav
+		  class="md-search__options"
+		  aria-label="Search"
+		>
+  
+		  <!-- Button to share search -->
+		  
+			<a
+			  href="javascript:void(0)"
+			  class="md-search__icon md-icon"
+			  title="Share"
+			  aria-label="Share"
+			  data-clipboard
+			  data-clipboard-text=""
+			  data-md-component="search-share"
+			  tabindex="-1"
+			>
+			  
+			  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+			</a>
+		  
+  
+		  <!-- Button to reset search -->
+		  <button
+			type="reset"
+			class="md-search__icon md-icon"
+			title="Clear"
+			aria-label="Clear"
+			tabindex="-1"
+		  >
+			
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+		  </button>
+		</nav>
+  
+		<!-- Search suggestions -->
+		
+	  </form>
+	  <div class="md-search__output">
+		<div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+  
+		  <!-- Search results -->
+		  <div class="md-search-result" data-md-component="search-result">
+			<div class="md-search-result__meta">
+			  Initializing search
+			</div>
+			<ol class="md-search-result__list" role="presentation"></ol>
+		  </div>
+		</div>
+	  </div>
+	</div>
   </div>
-</div>
     
 
     <!-- Repository information -->
@@ -536,63 +602,68 @@
 <p><a href="https://counterspell.hackclub.com/" id="imgLink"> <img align="left" src="https://3xay.github.io/assets/hc.png" id="imgIcon"></a>
 <a href="https://youtube.com/shorts/ejDgxPO1Svg" id="imgLink"><img align="left" src="https://3xay.github.io/assets/youtube.png" id="imgIcon"></a>
 <a href="https://github.com/Kolin63/BetsAndRegrets" id="imgLink"><img align="left" src="https://3xay.github.io/assets/github.png" id="imgIcon"></a>
-</br></p>
+<br></p>
 <h3 id="what-is-counterspell">What is Counterspell?</h3>
 <p><img align="right" src="https://3xay.github.io/assets/Counterspell/counterspellLogo.png">
-Counterspell was a global game jam hosted by <a href="../HackClub">Hack Club</a> in over 50 cities! There were over 1,500 participants and more than 600 games were submitted.
-The purpose was to get teens to meet each other and learn how to create something amazing. The theme was "You are your own worst enemy" and it was really interesting
+Counterspell was a global game jam hosted by <a href="../HackClub">Hack Club</a> in over 50 cities! There were over 1,500 participants and more than 600 games were submitted.</p>
+<p>The purpose was to get teens to meet each other and learn how to create something amazing. The theme was "You are your own worst enemy" and it was really interesting
 to see everyone's interpretation of that. There were 24 and 12 hour events, unfortunately, ours was only 12 hours, but it was still great.
-</br></p>
+<br></p>
 <h3 id="making-the-team">Making the Team</h3>
-<p><img align="right" src="https://3xay.github.io/assets/Counterspell/tshirt.jpg">
-I woke up at 5:00AM on Nov 23rd, because it was pretty far away, but the day still went really well. We got some Counterspell T-Shirts (I didn't wear it because it was super cold that day).
-Then, I sat down and waited for Hayden. I've never met him, but we decided to team up on a whim through the Discord server. When he got there, we started talking, and then we saw Ayan and Colin.
-We'd never met either of them but we decided to ask them to join, so we had a full team. Ayan and I bonded really quickly, at first because we had the same name,
-but then we realized we had a lot more in common. We both built our PCs that summer, we both have mechanical keyboards, we both prefer Android over iOS, and so much more!
+<p>I woke up at 5:00AM on Nov 23rd, because it was pretty far away, but the day still went really well. We got some Counterspell T-Shirts (I didn't wear it because it was super cold that day).
+<img align="right" src="https://3xay.github.io/assets/Counterspell/tshirt.jpg"></p>
+<p>Then, I sat down and waited for Hayden. I've never met him, but we decided to team up on a whim through the Discord server. When he got there, we started talking, and then we saw Ayan and Colin.
+We'd never met either of them but we decided to ask them to join, so we had a full team. </p>
+<p>Ayan and I bonded really quickly, at first because we had the same name, but then we realized we had a lot more in common. </p>
+<p>We both built our PCs that summer, we both have mechanical keyboards, we both prefer Android over iOS, and so much more!
 I could quickly tell that this was going to be a great team.
-</br></p>
+<br></p>
 <h3 id="theme-reveal">Theme Reveal</h3>
+<p>At this point in time, we didn't know the theme, but we were joking around with the idea of making a gambling game.</p>
 <p><img align="right" src="https://3xay.github.io/assets/Counterspell/theme.png">
-At this point in time, we didn't know the theme, but we were joking around with the idea of making a gambling game.
 When the theme was announced at the <a href="https://docs.google.com/presentation/d/1d30-2VoUgrkh-9KYRf9bnO4ib1cxjcJfW8CmEnVtvYk/edit?usp=sharing">opening ceremony</a>, we were <em>ecstatic</em>! Gambling fits PERFECTLY with the idea that you are your own enemy.
 After all, you can't stop gambling, but the more you do, the deeper of a hole you dig for yourself.
-</br></p>
+<br></p>
 <h3 id="dividing-the-work">Dividing the Work</h3>
-<p><img align="right" src="https://3xay.github.io/assets/Counterspell/group.jpg">
-After we had the theme, we had to make an idea. So along the lines of gambling, we all wrote down a few ideas on a piece of paper and worked together to formulate the perfect game.
-Hayden suggested Plinko, which we thought would be good, especially considering the 12 hours we have together. Now, Colin wanted to use Godot and we all agreed that we should.
-After all, the rest of us don't have much experience with game jams (other than Ayan) and he was comfortable in Godot. Then, we quickly realized that we couldn't all work on the
-same project as the other person, otherwise it would overwrite someone's progress. So, Colin naturally became the programmer, which left Ayan and me with no jobs. Then, Ayan
-remembered that he can make music, so that's what he did, creating 7 custom original soundtracks for this game based on the storyline. Hayden said he'd do the art (which <b>ISN'T</b> MS Paint by the way)
-so I was the only one left with nothing else to do. I thought for a while, but decided I'll start writing the README and instructions for the game while I think. That's when I started
-writing a bit of a backstory, and before you knew it, I had become the storyteller. My job was essentially the creative vision behind the game, which dictated the music and art style.
+<p>After we had the theme, we had to make an idea. So along the lines of gambling, we all wrote down a few ideas on a piece of paper and worked together to formulate the perfect game.
+Hayden suggested Plinko, which we thought would be good, especially considering the 12 hours we have together. </p>
+<p>Now, Colin wanted to use Godot and we all agreed that we should. After all, the rest of us don't have much experience with game jams (other than Ayan) and Colin was comfortable in Godot.
+<img align="right" src="https://3xay.github.io/assets/Counterspell/group.jpg"></p>
+<p>Then, we quickly realized that we couldn't all work on the same project as the other person, otherwise it would overwrite someone's progress. 
+So, Colin naturally became the programmer, which left Ayan and me with no jobs. Then, Ayan remembered that he can make music, so that's what he did, creating 7 custom original soundtracks for this game based on the storyline.
+Hayden said he'd do the art (which <b>ISN'T</b> MS Paint by the way) so I was the only one left with nothing else to do. </p>
+<p>I thought for a while, but decided I'll start writing the README and instructions for the game while I think. That's when I started writing a bit of a backstory, and before you knew it, I had become the storyteller.
+ My job was essentially the creative vision behind the game, which dictated the music and art style.
 This meant I had to work closely with everyone, and had to manage the team in order to make the game as cohesive as possible.
-</br></p>
+<br></p>
 <h3 id="actually-working">Actually working</h3>
 <p><img align="right" src="https://3xay.github.io/assets/Counterspell/working.jpg">
 When it came to actually working, it was really interesting. Everyone had their laptops (except me, with my tablet remoting into my desktop)
-and it was a fairly small table, so were were all close to each other. I was writing the storyline and <a href="https://github.com/Kolin63/BetsAndRegrets/blob/ayan/Dialogue.md">dialogue.</a>
-Every once in a while, I would tell Ayan and Hayden what I added, so they knew what to make next, and they would occasionally ask me to review their work to make sure it all flowed together.
-Colin used some placeholder assets for a while, until Hayden had enough art made to start adding it to the game. We also decided that we wanted to record the voicelines, not just have them appear on screen.
+and it was a fairly small table, so were were all close to each other. I was writing the storyline and <a href="https://github.com/Kolin63/BetsAndRegrets/blob/ayan/Dialogue.md">dialogue.</a></p>
+<p>Every once in a while, I would tell Ayan and Hayden what I added, so they knew what to make next, and they would occasionally ask me to review their work to make sure it all flowed together.
+Colin used some placeholder assets for a while, until Hayden had enough art made to start adding it to the game. </p>
+<p>We also decided that we wanted to record the voicelines, not just have them appear on screen.
 So I decided that Hayden should be the voice actor for the main character and the intro narrator, and I ended up being the voice actor for the devil, and the end narrator.
-When Hayden was done working, he started scouting other teams to see how far along everyone was (hint: everyone, including us, didn't have enough time).
-Although I was done with my storyline fairly quickly (maybe a few hours after lunch), my work wasn't over. The team still needed me to explain the storyline for them. Sure, they could've read it themselves,
+When Hayden was done working, he started scouting other teams to see how far along everyone was (hint: everyone, including us, needed more time).</p>
+<p>Although I was done with my storyline fairly quickly (maybe a few hours after lunch), my work wasn't over. The team still needed me to explain the storyline for them. Sure, they could've read it themselves,
 but that would mean spending more time, a resource we didn't have, and could also lead to inconsistencies throughout the game. So my work never ended. (Well, near the end it did when Colin was rushing
 to implement the million things we kept on adding, but I was on snack + clean-up duty for our table then).
-</br></p>
+<br></p>
 <h3 id="presenting">Presenting</h3>
 <p><img align="right" src="https://3xay.github.io/assets/Counterspell/presenting.png">
 After a long 12 hours, with the occasional food break and guest speaker, it was time to submit our projects. Thankfully, we were assured that we could work on the game afterwards for the global submission.
-After a few technical difficulties, we got the presentation working, and I think it went well. I started by explaining the game, seeing as I knew the story the best. Then, I passed the mic to Colin, who
-needed a bit of encouragement to get started, but he did great, explaining how he used Godot to make the game. Next, Ayan explained his many OSTs, and Hayden talked about his <b>NOT</b> MS Paint art.
+After a few technical difficulties, we got the presentation working, and I think it went well. </p>
+<p>I started by explaining the game, seeing as I knew the story the best. Then, I passed the mic to Colin, who needed a bit of encouragement to get started, but he did great, explaining how he used Godot to make the game.
+Next, Ayan explained his many OSTs, and Hayden talked about his <b>NOT</b> MS Paint art.
 Overall, we had a great presentation, that you can see over <a href="https://3xay.github.io/assets/Counterspell/Presentation.mp4">here</a>.
-</br></p>
+<br></p>
 <h3 id="global-submissions">Global Submissions</h3>
-<p><img align="right" src="https://3xay.github.io/assets/Counterspell/topTen.jpg">
-It was December 1st, 2024. We had a week to perfect our game, and we had finally gotten it to where we wanted it. Colin submitted the submission form at 10:31PM, and we thought that would be it.
-We didn't really expect to win anything, especially considering we only got 5th place out of 9 teams, but we were hopeful. Then, on December 15th, 9:23PM, I got an email while I was coming home from a party.
-I opened it and it said that the global voting form is open. I thought, "cool, lemme send this to the team" and that was about it. That's when Colin told me that we were in the top 10. I didn't believe it, so I opened
-the voting form right then and there. I couldn't believe it, our game actually got in the top 10. I was so excited that I ran home, and recorded a <a href="https://www.youtube.com/shorts/ITvrHvrxOI0">video</a>, still in my shirt from the party.</p>
+<p>It was December 1st, 2024. We had a week to perfect our game, and we had finally gotten it to where we wanted it. Colin submitted the submission form at 10:31PM, and we thought that would be it.
+We didn't really expect to win anything, especially considering we only got 5th place out of 9 teams, but we were hopeful. 
+<img align="right" src="https://3xay.github.io/assets/Counterspell/topTen.jpg", style="width: 15em;"></p>
+<p>Then, on December 15th, 9:23PM, I got an email while I was coming home from a party. I opened it and it said that the global voting form is open. I thought, "cool, lemme send this to the team" and that was about it. </p>
+<p>That's when Colin told me that we were in the top 10. I didn't believe it, so I opened the voting form right then and there. I couldn't believe it, our game actually got in the top 10!!
+I was so excited that I ran home, and recorded a <a href="https://www.youtube.com/shorts/ITvrHvrxOI0">video</a>, still in my shirt from the party.</p>
 
 <!-- Source file information -->
 

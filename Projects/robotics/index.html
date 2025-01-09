@@ -299,43 +299,109 @@
       </label>
 
       <!-- Search interface -->
-      <div class="md-search" data-md-component="search" role="dialog">
-  <label class="md-search__overlay" for="__search"></label>
-  <div class="md-search__inner" role="search">
-    <form class="md-search__form" name="search">
-      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
-      <label class="md-search__icon md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
-      </label>
-      <nav class="md-search__options" aria-label="Search">
-        
-          <a href="javascript:void(0)" class="md-search__icon md-icon" title="Share" aria-label="Share" data-clipboard data-clipboard-text="" data-md-component="search-share" tabindex="-1">
-            
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
-          </a>
-        
-        <button type="reset" class="md-search__icon md-icon" title="Clear" aria-label="Clear" tabindex="-1">
-          
-          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
-        </button>
-      </nav>
-      
-    </form>
-    <div class="md-search__output">
-      <div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
-        <div class="md-search-result" data-md-component="search-result">
-          <div class="md-search-result__meta">
-            Initializing search
-          </div>
-          <ol class="md-search-result__list" role="presentation"></ol>
-        </div>
-      </div>
-    </div>
+      <!--
+  Copyright (c) 2016-2025 Martin Donath <martin.donath@squidfunk.com>
+
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<!-- Search interface -->
+<div class="md-search" data-md-component="search" role="dialog">
+	<label class="md-search__overlay" for="__search"></label>
+	<div class="md-search__inner" role="search">
+	  <form class="md-search__form" name="search">
+  
+		<!-- Search input -->
+		<input
+		  type="text"
+		  class="md-search__input"
+		  name="query"
+		  aria-label="Search"
+		  placeholder="Search"
+		  autocapitalize="off"
+		  autocorrect="off"
+		  autocomplete="off"
+		  spellcheck="false"
+		  data-md-component="search-query"
+		  required
+		/>
+  
+		<!-- Button to open search -->
+		<label class="md-search__icon md-icon" for="__search">
+		  
+		  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+		  
+		  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+		</label>
+		<!-- Search options -->
+		<nav
+		  class="md-search__options"
+		  aria-label="Search"
+		>
+  
+		  <!-- Button to share search -->
+		  
+			<a
+			  href="javascript:void(0)"
+			  class="md-search__icon md-icon"
+			  title="Share"
+			  aria-label="Share"
+			  data-clipboard
+			  data-clipboard-text=""
+			  data-md-component="search-share"
+			  tabindex="-1"
+			>
+			  
+			  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M18 16.08c-.76 0-1.44.3-1.96.77L8.91 12.7c.05-.23.09-.46.09-.7s-.04-.47-.09-.7l7.05-4.11c.54.5 1.25.81 2.04.81a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3c0 .24.04.47.09.7L8.04 9.81C7.5 9.31 6.79 9 6 9a3 3 0 0 0-3 3 3 3 0 0 0 3 3c.79 0 1.5-.31 2.04-.81l7.12 4.15c-.05.21-.08.43-.08.66 0 1.61 1.31 2.91 2.92 2.91s2.92-1.3 2.92-2.91A2.92 2.92 0 0 0 18 16.08"/></svg>
+			</a>
+		  
+  
+		  <!-- Button to reset search -->
+		  <button
+			type="reset"
+			class="md-search__icon md-icon"
+			title="Clear"
+			aria-label="Clear"
+			tabindex="-1"
+		  >
+			
+			<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z"/></svg>
+		  </button>
+		</nav>
+  
+		<!-- Search suggestions -->
+		
+	  </form>
+	  <div class="md-search__output">
+		<div class="md-search__scrollwrap" tabindex="0" data-md-scrollfix>
+  
+		  <!-- Search results -->
+		  <div class="md-search-result" data-md-component="search-result">
+			<div class="md-search-result__meta">
+			  Initializing search
+			</div>
+			<ol class="md-search-result__list" role="presentation"></ol>
+		  </div>
+		</div>
+	  </div>
+	</div>
   </div>
-</div>
     
 
     <!-- Repository information -->
@@ -538,8 +604,8 @@
 I was sitting in my 3rd grade computer lab, learning about technology and all of its amazing uses.
 It was then that I was inspired to pursue technology.
 I was at the age where toy robots were fairly basic, but regardless, I loved them.
-However, I never felt satisfied with what I had, I felt like it could be better.
-It was then that I discovered the magic of programmable robots.
+However, I never felt satisfied with what I had, I felt like it could be better.</p>
+<p>It was then that I discovered the magic of programmable robots.
 The Micro:Bit was simply amazing, a 5x5 LED matrix, sensors, and microcontroller all packaged into one!
 With its pins, you could simply slot it into a robotics kit, allowing for even more sensors, lights, and motors.
 Using that "toy", I was able to learn about the basic of programming a robot and microcontroller.
@@ -551,8 +617,8 @@ But even this wasn't enough, I needed more.
 FLL or FIRST Lego League is a robotics competition based off of Lego and EV3 robots.
 The primary focus of the FIRST foundation is to expose the new generation to STEM and healthy collaboration with teammates.
 After spending an year in an FLL team, I had learned how to manage a team, build a robot with Lego, program EV3 bricks, and so much more.
-Then I moved on to FTC or FIRST Tech Challenge.
-FTC is the same as FLL, except you get a much larger field, more complex tasks, and you have the ability to make a robot from scratch.
+Then I moved on to FTC or FIRST Tech Challenge.</p>
+<p>FTC is the same as FLL, except you get a much larger field, more complex tasks, and you have the ability to make a robot from scratch.
 I joined team 18061, Simply Complex in the PowerPlay season. We built a fairly off-the-shelf robot, but it was great for learning.
 I learned how to program in Java, the basics of a real robot, and got a chance to use computer vision technologies such as OpenCV.
 The following year was the CenterStage Season where I took the role of programming lead.
