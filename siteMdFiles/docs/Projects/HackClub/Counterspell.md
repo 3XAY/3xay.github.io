@@ -7,7 +7,7 @@ hide:
 # Counterspell
 ***
 <a href="https://counterspell.hackclub.com/" id="imgLink"> <img align="left" src="https://3xay.github.io/assets/hc.png" id="imgIcon"></a>
-<a href="https://youtube.com/shorts/ejDgxPO1Svg" id="imgLink"><img align="left" src="https://3xay.github.io/assets/youtube.png" id="imgIcon"></a>
+<a href="https://www.youtube.com/playlist?list=PL8pZ9v0F1Ks2nz3jd9cDlbYRhR1cmo6Ry" id="imgLink"><img align="left" src="https://3xay.github.io/assets/youtube.png" id="imgIcon"></a>
 <a href="https://github.com/Kolin63/BetsAndRegrets" id="imgLink"><img align="left" src="https://3xay.github.io/assets/github.png" id="imgIcon"></a>
 <br>
 
@@ -100,7 +100,7 @@ This was it. It's January 10th, 2025 and it's 4:20PM. We submitted the game over
 This time, I didn't wanna send it and open it later, I wanted to see the email for myself. I saw the first place winner, [Remedy Renemy](https://bucketfish.itch.io/remedy-renemy).
 
 I remembered voting for them, but I also was feeling nervous. "What if we don't get 2nd place? We were so close and we failed."
-<img align="right" src="https://3xay.github.io/assets/Counterspell/thumbnail.png", style="width: 15em;">
+<img align="right" src="https://3xay.github.io/assets/Counterspell/thumbnail.png">
 Then I scrolled down and saw a bright red thumbnail. It was familiar, it said "Bets and Regrets". We did it! We actually won 2nd place!
 
 This was a huge feat for us. We were 4 guys who met for the first time, decided to make a fun little game, and actually got 2nd place out of 600 games and 1,500 people!
