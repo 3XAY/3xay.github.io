@@ -13,12 +13,13 @@ hide:
 
 ***
 
+## Counterspell 2nd place winner!
+
 ## What I'm Working On
 
     High Seas
     
 	A general You ship, we ship by Hack Club.
-	It's also Holiday season, so I've been taking this time to explore new projects.
 
 	YouTube
 	There's always more to share!

@@ -93,3 +93,21 @@ Then, on December 15th, 9:23PM, I got an email while I was coming home from a pa
 
 That's when Colin told me that we were in the top 10. I didn't believe it, so I opened the voting form right then and there. I couldn't believe it, our game actually got in the top 10!!
 I was so excited that I ran home, and recorded a <a href="https://www.youtube.com/shorts/ITvrHvrxOI0">video</a>, still in my shirt from the party.
+
+
+### Global Results
+This was it. It's January 10th, 2025 and it's 4:20PM. We submitted the game over a month ago and it was time to see what happened.
+This time, I didn't wanna send it and open it later, I wanted to see the email for myself. I saw the first place winner, [Remedy Renemy](https://bucketfish.itch.io/remedy-renemy).
+
+I remembered voting for them, but I also was feeling nervous. "What if we don't get 2nd place? We were so close and we failed."
+<img align="right" src="https://3xay.github.io/assets/Counterspell/thumbnail.png", style="width: 15em;">
+Then I scrolled down and saw a bright red thumbnail. It was familiar, it said "Bets and Regrets". We did it! We actually won 2nd place!
+
+This was a huge feat for us. We were 4 guys who met for the first time, decided to make a fun little game, and actually got 2nd place out of 600 games and 1,500 people!
+I actually didn't believe it at first but then Sofia, the organizer for Counterspell messaged us on Slack, congratulating us for our achievement, and asking for our addresses
+to send the Bambu Lab A1 Minis to. 
+That was it! We actually did it!. However, there were only 3 printers (as was mentioned at the start of the event) and 4 of us.
+Hayden was gracious enough to say no to the printer so we all got printers. Colin has another one now, Ayan who needed one for so long got one, and I, who had a printer but returned it (it was a reliability nightmare), also got one.
+
+For those of you who are wondering, the first place prize is an all expenses paid trip to where ever the next Hack Club game jam is. (A lot of them aren't global).
+And now, we wait. Bambu is really back ordered due to the holiday season, so we're gonna need to wait till March at the earliest to get our printers, we're super exited though!
