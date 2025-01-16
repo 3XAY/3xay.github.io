@@ -22,8 +22,7 @@ Conda environment with yours and the path to the Mkdocs project with yours)
 You may have to run the .bat commands manually in Anaconda Prompt if conda isn't recognized as a command in command prompt. (But this should be fixed now)
 
 ### Screenshots:
-![Home Page](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/home.png)
+![Home Page](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/home.jpg)
 ![YouTube Search Results](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/search.jpg)
-![Contact](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/contact.png)
-![Blog](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/blog.png)
-![Hackpad](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/hackpad.png)
+![Blog](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/blog.jpg)
+![Counterspell](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/counterspell.jpg)
