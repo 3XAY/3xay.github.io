@@ -8,19 +8,19 @@ hide:
 ***
 
 ## Email
-| [3XAYContent@gmail.com](mailto:3XAYContent@gmail.com)
+<p>| <a href="mailto:3XAYContent@gmail.com" class="contact-page-links">3XAYContent@gmail.com</a></p>
 
 ## Discord
-| [3XAY](https://discord.gg/VvVzWrzYkw)
+<p>| <a href="https://discord.gg/VvVzWrzYkw" class="contact-page-links">3XAY</a></p>
 
 ## Youtube
-| [3XAY](https://youtube.com/@3XAY)
+<p>| <a href="https://youtube.com/@3XAY" class="contact-page-links">3XAY</a></p>
 
 ## GitHub
-| [3XAY](https://github.com/3XAY)
+<p>| <a href="https://github.com/3XAY" class="contact-page-links">3XAY</a></p>
 
 ## LinkedIn
-| [Ayan Bindal](https://www.linkedin.com/in/ayan-bindal-b0037a284)
+<p>| <a href="https://www.linkedin.com/in/ayan-bindal-b0037a284" class="contact-page-links">Ayan Bindal</a></p>
 
 ## Slack
-| [3XAY](https://hackclub.slack.com/team/U07QKF9LB19)
+<p>| <a href="https://hackclub.slack.com/team/U07QKF9LB19" class="contact-page-links">3XAY</a></p>

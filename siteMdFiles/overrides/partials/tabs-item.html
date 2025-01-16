@@ -63,7 +63,7 @@
   <!-- Navigation item -->
   {% else %}
     <li class="{{ class }}">
-      <a href="{{ nav_item.url | url }}" class="md-tabs__link">
+      <a href="{{ nav_item.url | url }}" class="md-tabs__link" style="font-size: 0.85rem; line-height: 1rem;">
         {{render_content(nav_item)}}
       </a>
     </li>

@@ -87,6 +87,9 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         {% include ".icons/material/calendar.svg" %}
+						<p class="blog-metadata-label">
+							Created: 
+						</p>
                         <time
                           datetime="{{ page.config.date.created }}"
                           class="md-ellipsis"
@@ -101,6 +104,9 @@
                       <li class="md-nav__item">
                         <div class="md-nav__link">
                           {% include ".icons/material/calendar-clock.svg" %}
+						  <p class="blog-metadata-label">
+							Updated: 
+					      </p>
                           <time
                             datetime="{{ page.config.date.updated }}"
                             class="md-ellipsis"
@@ -116,6 +122,9 @@
                       <li class="md-nav__item">
                         <div class="md-nav__link">
                           {% include ".icons/material/bookshelf.svg" %}
+						  <p class="blog-metadata-label">
+							Categories: 
+						  </p>
                           <span class="md-ellipsis">
                             {{ lang.t("blog.categories.in") }}
                             {% for category in page.categories %}
@@ -135,6 +144,9 @@
                       <li class="md-nav__item">
                         <div class="md-nav__link">
                           {% include ".icons/material/clock-outline.svg" %}
+						  <p class="blog-metadata-label">
+							Readtime: 
+						  </p>
                           <span class="md-ellipsis">
                             {% if time == 1 %}
                               {{ lang.t("readtime.one") }}

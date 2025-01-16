@@ -12,6 +12,9 @@ hide:
 | A miniature development keyboard.
 -->
 
+#### [Counterspell](Projects/HackClub/Counterspell.md)
+| A global game jam that happened in over 50 cities, super fun! (And we won!)
+
 #### [HackPad](Projects/HackClub/HackPad.md)
 | A portal to creativity.
 
@@ -31,9 +34,6 @@ hide:
 
 #### [Hack Club](Projects/HackClub/HackClub.md)
 | Various projects I've done for Hack Club (not endorsed).
-
-#### [Counterspell](Projects/HackClub/Counterspell.md)
-| A global game jam that happened in over 50 cities, super fun!
 
 #### [Robotics](Projects/robotics.md)
 | From toys to competitions.

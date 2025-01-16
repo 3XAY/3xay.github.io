@@ -32,6 +32,8 @@ img{
 /*Increase size of codeblocks*/
 .md-typeset code{
 	padding: .2941176471em;
+	word-spacing: 0.02em;
+	letter-spacing: 0.025em;
 }
 
 .md-typeset a:hover{
@@ -56,6 +58,11 @@ a{
 	letter-spacing: 0.01em;
 }
 
+.md-typeset li{
+	word-spacing: 0.02em;
+	letter-spacing: 0.025em;
+}
+
 /*https://github.com/drush-ops/drush/blob/13.x/docs/css/extra.drush.css*/
 [data-md-toggle="search"]:not(:checked) ~ .md-header .md-search__form::after {
     position: absolute;
@@ -67,4 +74,12 @@ a{
     font-weight: bold;
     font-size: .8rem;
     content: "[/]";
+}
+
+.md-header__button.md-logo img{
+	height: 1.55rem;
+}
+
+.contact-page-links{
+	font-size: 1rem;
 }

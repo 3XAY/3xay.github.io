@@ -124,3 +124,11 @@ body{
 .md-ellipsis{
 	font-weight: 600;
 }
+
+.blog-metadata-label{
+	font-size: 0.55rem;
+	letter-spacing: 0.01rem;
+	line-height: 0.1rem;
+	font-weight: 550;
+	color: rgb(213, 213, 213);
+}
