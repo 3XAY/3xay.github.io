@@ -25,4 +25,4 @@ You may have to run the .bat commands manually in Anaconda Prompt if conda isn't
 ![Home Page](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/home.jpg)
 ![YouTube Search Results](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/search.jpg)
 ![Blog](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/blog.jpg)
-![Counterspell](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/counterspell.jpg)
+![Counterspell](https://raw.githubusercontent.com/3XAY/3xay.github.io/refs/heads/main/screenshots/counterspell.png)
