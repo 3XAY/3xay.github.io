@@ -21,6 +21,9 @@ hide:
 #### [Youtube](Projects/youtube.md)
 | Inspiring the world, one viewer at a time.
 
+####  [PC Utilities](Projects/PC-Utilities.md)
+| **THE** portable Windows utility.
+
 <!---
 #### [Computer Vision](Projects/cv.md)
 | Changing the way we interact with computers.
@@ -37,6 +40,3 @@ hide:
 
 #### [Robotics](Projects/robotics.md)
 | From toys to competitions.
-
-***
-More is being added
