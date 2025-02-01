@@ -80,6 +80,13 @@ plugins:
         draft_if_future_date: true
         blog_toc: false
     - tags
+    - rss:
+        match_path: blog/posts/.*
+        date_from_meta:
+            as_creation: date
+        categories:
+            - categories
+            - tags
 
 
 extra_css:

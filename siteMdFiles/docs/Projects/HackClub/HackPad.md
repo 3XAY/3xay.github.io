@@ -59,7 +59,9 @@ And the worst part, was that my macropad was incredibly weird. Most people have 
 And the most important part is most people tend to use matrix wiring, I used direct wiring... (learn about the difference <a href="https://youtu.be/V0M98DuhhBI?si=TxXg1oUVK2Hfz1gU&t=393">here</a>). Basically, all of these small problems added up and made it super hard to learn QMK.
 On top of that, the submission date was almost here and I needed something. I ended up making a custom firmware in CircuitPython,  which was pretty rushed.
 
-##### THIS ARTICLE IS NOT COMPLETE
-##### MORE WILL BE ADDED ONCE HACKPADS ARE SHIPPED
-##### HACKPADS ARE SHIPPED, MINE IS MISSING SOME STUFF
-##### TOOK A WHILE TO SOLDER, BUT I GOT EVERYTHING THAT I HAVE WORKING (3 ENCODER SWITCHES WITH 1 ROTARY ENCODER WORKING)
+### Step 4: Assembly
+My hackpad got shipped, but was missing some parts. Thankfully, I was able to solder the screen (backwards because I messed up the footprint) and 3 encoder switches with 1 rotary encoder working.
+After a few firmware tweaks, the stuff I had so far was working. Unfortunately my case was half missing, and I didn't have any switches + I/O expander. This was also my first time soldering, so it took a sec.
+I also didn't have a fume extractor or even a fan at the time so the fumes kept on going straight in my lungs...
+
+#### STILL NOT DONE YET
