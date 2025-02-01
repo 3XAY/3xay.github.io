@@ -19,13 +19,5 @@ You can see everything I've done (related to Hack Club) below:
 #### [Counterspell](Counterspell.md)
 | A global game jam that happened in over 50 cities, super fun!
 
-<!---
-#### [Sprig](Sprig.md)
-| A Raspberry Pi Pico W with a screen, 8 buttons, a speaker, and 2 AAA batteries!
-
 #### [High Seas](HighSeas.md)
 | A general purpose ysws from October 30th to January 31st! (Of 2024-2025).
-
-#### [Riceathon](Riceathon.md)
-| You rice a linux distro of your choice, they ship Hack Club socks, a Blåhaj, or Programmer socks.
--->
