@@ -64,4 +64,7 @@ My hackpad got shipped, but was missing some parts. Thankfully, I was able to so
 After a few firmware tweaks, the stuff I had so far was working. Unfortunately my case was half missing, and I didn't have any switches + I/O expander. This was also my first time soldering, so it took a sec.
 I also didn't have a fume extractor or even a fan at the time so the fumes kept on going straight in my lungs...
 
-#### STILL NOT DONE YET
+#### WILL NOT BE COMPLETED :(
+I've poured a tremendous amount of time and energy into this project, and I've learned a lot and am grateful to Hack Club for providing me this opportunity, HOWEVER, I have noticed that I have made serious design flaws such as a reversed OLED connector and much more.
+It does not make sense to continue development on this project at this time, given that I no longer have a strong need for a macropad and a future revision with wireless capabilities + my better understanding of PCB design to improve the build and usability.
+By the way, it did end up working, I just had a missing part + the screen had to be mounted behind the macropad, so the code all worked, just not the full thing.
