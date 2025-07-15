@@ -21,3 +21,6 @@ You can see everything I've done (related to Hack Club) below:
 
 #### [High Seas](HighSeas.md)
 | A general purpose ysws from October 30th to January 31st! (Of 2024-2025).
+
+#### [Converge](Converge.md)
+| A ysws about building bots.
