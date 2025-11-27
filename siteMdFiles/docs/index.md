@@ -9,16 +9,14 @@ hide:
 * `Programming` - Over 8 years of programming experience in Python, Scratch, and Java.
 * `3D Design` - Over 6 years of CAD and 3D animation experience in Blender.
 * `Teaching` - I run a [YouTube](https://youtube.com/@3XAY) channel dedicated to teaching about technology.
-* `Servers` - I manage a Homelab consisting of one laptop.
+* `Servers` - I manage a Homelab consisting of one laptop (Update: It died 🙁).
 
 ***
 
 ## What I'm Working On
 
-    Pixeldust - Assembling + coding a custom designed lightbox
-    
-	The Summer of Making by Hack Club
+	HackPHS - Editing the video
 
-	Bike Build - Rebuilding a bike from the 90s
+    Pixeldust - Writing the article for the YSWS
 
-	Gemini - A YSWS program by Hack Club to make Android apps
+	Raspberry Pi Zero 2W Server Rack Build - 3 nodes, 1 master
