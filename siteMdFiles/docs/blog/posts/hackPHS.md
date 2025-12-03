@@ -10,7 +10,7 @@ categories:
     - 3D Printing
 date:
     created: 2025-12-02
-    updated: 2025-12-02
+    updated: 2025-12-03
 draft: false
 tags:
     - hackathon
@@ -23,6 +23,7 @@ _I went to Princeton High School's hackathon!_
 <a href="https://www.youtube.com/watch?v=lAx5NC4DJYQ" id="imgLink"><img align="left" src="https://3xay.github.io/assets/youtube.png" id="imgIcon"></a>
 <a href="https://github.com/3XAY/HackPHSADWeather" id="imgLink"><img align="left" src="https://3xay.github.io/assets/github.png" id="imgIcon"></a>
 <a href="https://3xay.github.io/assets/HackPHS/slideshow.pptx" id="imgLink"><img align="left" src="https://3xay.github.io/assets/slides.png" id="imgIcon"></a>
+<br>
 <br>
 
 ### What is HackPHS?
