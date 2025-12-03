@@ -15,8 +15,14 @@ hide:
 
 ## What I'm Working On
 
-	HackPHS - Editing the video
-
+    HackPHS - Writing the blog + scheduling the video
+    
     Pixeldust - Writing the article for the YSWS
 
-	Raspberry Pi Zero 2W Server Rack Build - 3 nodes, 1 master
+    PC Utilities - Page update
+
+    High Seas - Page update
+
+    Converge - Page update
+
+    Raspberry Pi Zero 2W Server Rack Build - 3 nodes, 1 master
