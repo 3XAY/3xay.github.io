@@ -70,7 +70,7 @@ After we submitted, it came time to present. Honestly, we weren't ready, and I k
 Here are the videos: 
 <br>
 
-* [Dr. Finkelstein & Mr. Schlesinger](https://3xay.github.io/assets/HackPHS/Finkelstein%20+%20Schlesinger.mp4)
+* [Dr. Finkelstein & Mr. Schlesinger](https://3xay.github.io/assets/HackPHS/Finkelstein+Schlesinger.mp4)
 * [Dr. Kopaliani](https://3xay.github.io/assets/HackPHS/Kopaliani.mp4)
 * [Mr. Kalyanaraman](https://3xay.github.io/assets/HackPHS/Kalyanaraman.mp4)
 
