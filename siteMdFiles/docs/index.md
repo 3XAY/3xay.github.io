@@ -24,3 +24,5 @@ hide:
     Converge - Writing the article for the YSWS
 
     Raspberry Pi Zero 2W Server Rack Build - 3 nodes, 1 master
+
+	LinkedIn - Actually making my profile
