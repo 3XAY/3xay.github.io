@@ -17,10 +17,6 @@ hide:
     
     Pixeldust - Writing the article for the YSWS
 
-    PC Utilities - Page review
-
-    High Seas - Page review & image upload
-
     Converge - Writing the article for the YSWS
 
     Raspberry Pi Zero 2W Server Rack Build - 3 nodes, 1 master
