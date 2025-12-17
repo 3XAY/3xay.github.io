@@ -31,11 +31,14 @@ One major plus point for Hack Club is the community. Because there isn't any sig
 
 ### Mystic Tavern
 I decided to volunteer for Mystic Tavern. It's an extension to High Seas, where you meet up with other teens near you who also participated in High Seas. I saw the message in the Slack saying that we can organize or join meetups near us, and I thought it was a good idea. After a lot of talking, we finally settled on March 30th, 2025 from 4PM to 6PM. I don't normally do things like this, but it was fun. We even got custom t-shirts with everyone's username and QR codes to certain projects that the Hack Club team chose from our submissions. 
-<!-- TODO: Add picture of counterspell t-shirts -->
+
+<img align="right" src="https://3xay.github.io/assets/HighSeas/mystictaverntshirt.png" width="1300em">
+
+<br clear="">
 
 Unfortunately, a lot of people couldn't show up (it ended up being Colin, Kavin, and me) but was fun nonetheless. We went to Aljohn's, a local pizza shop and ate, talked, and walked around. I learned that Kavin goes to the other high school in my school district. I already knew Colin, he was the programmer on our team at [Counterspell](https://3xay.github.io/Projects/HackClub/Counterspell/).
 
 After Kavin had left, Colin and I decided to head to my home for a bit, since his train was scheduled to come quite a bit later, and it was still cold out. I also got a chance to show him my room with my 3D printer, tools, and computer (that I built). When our time was up, we dropped him off at the train station and that was that.
 
 Even though Mystic Tavern wasn't what we expected due to the last-minute cancellations, it was still super fun. I really enjoyed talking with the two and the evening overall was great. I don't really have anything bad to say about it, and the t-shirts were also super cooll!
-<img align="right" src="https://3xay.github.io/assets/HighSeas/mystictavern.jpg">
+<img align="right" src="https://3xay.github.io/assets/HighSeas/mystictavern.jpg" width="350em">
