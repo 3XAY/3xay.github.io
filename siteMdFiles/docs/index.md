@@ -22,3 +22,7 @@ hide:
     Raspberry Pi Zero 2W Server Rack Build - 3 nodes, 1 master
 
     LinkedIn - Actually making my profile
+
+    Repairing - Fixing a broken HyperX Cloud Orbit S (headphones)
+
+    Creating - Making an adapter that allows me to use a larger battery in my laptop
