@@ -55,6 +55,7 @@ Total - $18.02
 
 ### Designing the PCB
 Since I've already made PCBs in the past, it was pretty simple for me to make the schematic, especially since I drew the wiring diagram above beforehand. Connecting some LEDs, buttons, and an encoder to a microcontroller is fairly simple. Then, it was easy to route the traces on the actual PCB to connect everything, since KiCad already tells you what connects to what. The hardest part was to make it more compact, but I decided to place the RP2040 on the back and surface mount it, giving me more space. Little did I know that making the RP2040 SMD would be an absolute PAIN to solder on, considering that the LEDs were right behind it.
+<img align="right" src="https://3xay.github.io/assets/Pixeldust/pcbschematic.png" width="1300em" style="padding-top: 2em;">
 
 ### Creating the firmware
 Creating the firmware was really simple. I only had to worry about taking input from the buttons and encoder, and then changing some RGBW + brightness values. It was pretty simple to use the built-in CircuitPython libraries to handle the buttons + encoders. After that, I just had to create and update the RGBW variables and use the brightness as a multiplier. Finally, I could use the built-in Neopixel library to send the right data through the data pins to update the LEDs. Finally, I also created some "profiles" that allow you to quickly cycle through some pre-sets that you may find useful.
@@ -66,3 +67,6 @@ CADing a case is always a bit of nightmare for me. Since I use Blender, which is
 
 ### Magic smoke
 If you've ever worked with circuits, you're familiar with the term "magic smoke". For those of you who don't know, it's when a component burns up and releases that smoke. You see, I forgot that I needed a diode for my power delivery, so thankfully when I plugged it into a USB-port, it just shorted out safely. Unfortunately, I didn't have a powerful enough diode. Thankfully, I found a 400V, 1A diode from a dead board of some sort. I put it on, but remember, this lightbox uses the full 3 amps at max load. So, as you'd expect, the diode started smoking. Now, I could just get a proper diode, OR I could use one of the many mini heatsinks I have and call it a day. And who would've thought, it actually worked! Even at max load for extended durations!
+
+
+### The result
