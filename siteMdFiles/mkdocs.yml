@@ -9,6 +9,22 @@ nav:
     - Contact: contact.md
     - Blog: blog/index.md
   
+not_in_nav: |
+    Projects/homelab.md
+    Projects/PC-Utilities.md
+    Projects/macropad.md
+    Projects/robotics.md
+    Projects/youtube.md
+    Projects/HackClub/Converge.md
+    Projects/HackClub/Counterspell.md
+    Projects/HackClub/HackClub.md
+    Projects/HackClub/HackPad.md
+    Projects/HackClub/HighSeas.md
+    Projects/HackClub/Pixeldust.md
+    Projects/HackClub/asylum-weather.md
+    well-known/discord.md
+    
+
 theme:
     name: material
     custom_dir: overrides
@@ -84,7 +100,7 @@ plugins:
         match_path: blog/posts/.*
         date_from_meta:
             as_creation: date.created
-            as_updated: date.updated
+            as_update: date.updated
         categories:
             - categories
             - tags

@@ -35,7 +35,7 @@ Since being low-cost was a priority, I had to make sure I wasn't wasting money a
 * Xiao RP2040 - $3.99
 * PCB - $2.00
     * White soldermask, helps reflect light outwards
-    * Black silkcreen, cheaper
+    * Black silkscreen, cheaper
     * No order number on PCB, free
     * Untented vias, free + easier to solder to
 * PCB Shipping - $1.50
@@ -44,7 +44,7 @@ Since being low-cost was a priority, I had to make sure I wasn't wasting money a
     * 7000K
     * Can't order just 64
 * Cherry MX-style switch - $0.20
-* [EC11 Enconder with switch](https://www.lcsc.com/product-detail/Rotary-Encoders_ALPSALPINE-EC11E18244AU_C202365.html?s_z=n_EC11) - $1.99
+* [EC11 Encoder with switch](https://www.lcsc.com/product-detail/Rotary-Encoders_ALPSALPINE-EC11E18244AU_C202365.html?s_z=n_EC11) - $1.99
 * [USB-C Port (2P)](https://www.lcsc.com/product-detail/USB-Connectors_SAMZO-FKAKALCCA_C39833028.html) - $0.60
 * [Power rocker switch](https://www.lcsc.com/product-detail/Rocker-Switches_HCTL-RS601A-1010013BB_C5124217.html) - $0.43
 * 3D-printed case - variable cost
@@ -58,11 +58,11 @@ Since I've already made PCBs in the past, it was pretty simple for me to make th
 <img align="right" src="https://3xay.github.io/assets/Pixeldust/pcbschematic.png" width="1300em" style="padding-top: 2em;">
 
 ### Creating the firmware
-Creating the firmware was really simple. I only had to worry about taking input from the buttons and encoder, and then changing some RGBW + brightness values. It was pretty simple to use the built-in CircuitPython libraries to handle the buttons + encoders. After that, I just had to create and update the RGBW variables and use the brightness as a multiplier. Finally, I could use the built-in Neopixel library to send the right data through the data pins to update the LEDs. Finally, I also created some "profiles" that allow you to quickly cycle through some pre-sets that you may find useful.
+Creating the firmware was really simple. I only had to worry about taking input from the buttons and encoder, and then changing some RGBW + brightness values. It was pretty simple to use the built-in CircuitPython libraries to handle the buttons + encoders. After that, I just had to create and update the RGBW variables and use the brightness as a multiplier. Finally, I could use the built-in Neopixel library to send the right data through the data pins to update the LEDs. Finally, I also created some "profiles" that allow you to quickly cycle through some presets that you may find useful.
 
 
 ### Putting it all together
-CADing a case is always a bit of nightmare for me. Since I use Blender, which is **definitely** not optimized for CAD, it can be a little annoying to change some things after the fact, but overall it wasn't horrible. Unfortunately, when I 3D-printed my case, there was a decent bit of warping, which meant that the dimensions weren't as accurate as possible. Plus, when I was soldering the Xiao RP2040 onto the board, I realized that it was IMPOSSIBLE because I didn't make it THT, and the SMD LEDs were on the other side. This meant that I had to make sure to solder it perfectly, which ended up being hard since the pads were so close together. In the end, I had to use a normal Raspberry Pi RP2040 and use wires to connect the pins to the right pads. I also ended up destroying some pads in the process of trying to connect the Xiao, so I have some extra wires sticking out. All in all, this made the fully enclosed case diffuclt. My solution? Get rid of the diffusion layer, it looks the same anyways + is brighter.
+CADing a case is always a bit of nightmare for me. Since I use Blender, which is **definitely** not optimized for CAD, it can be a little annoying to change some things after the fact, but overall it wasn't horrible. Unfortunately, when I 3D-printed my case, there was a decent bit of warping, which meant that the dimensions weren't as accurate as possible. Plus, when I was soldering the Xiao RP2040 onto the board, I realized that it was IMPOSSIBLE because I didn't make it THT, and the SMD LEDs were on the other side. This meant that I had to make sure to solder it perfectly, which ended up being hard since the pads were so close together. In the end, I had to use a normal Raspberry Pi RP2040 and use wires to connect the pins to the right pads. I also ended up destroying some pads in the process of trying to connect the Xiao, so I have some extra wires sticking out. All in all, this made the fully enclosed case difficult. My solution? Get rid of the diffusion layer, it looks the same anyways + is brighter.
 
 
 ### Magic smoke

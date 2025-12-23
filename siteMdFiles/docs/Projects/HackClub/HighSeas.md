@@ -40,5 +40,5 @@ Unfortunately, a lot of people couldn't show up (it ended up being Colin, Kavin,
 
 After Kavin had left, Colin and I decided to head to my home for a bit, since his train was scheduled to come quite a bit later, and it was still cold out. I also got a chance to show him my room with my 3D printer, tools, and computer (that I built). When our time was up, we dropped him off at the train station and that was that.
 
-Even though Mystic Tavern wasn't what we expected due to the last-minute cancellations, it was still super fun. I really enjoyed talking with the two and the evening overall was great. I don't really have anything bad to say about it, and the t-shirts were also super cooll!
+Even though Mystic Tavern wasn't what we expected due to the last-minute cancellations, it was still super fun. I really enjoyed talking with the two and the evening overall was great. I don't really have anything bad to say about it, and the t-shirts were also super cool!
 <img align="right" src="https://3xay.github.io/assets/HighSeas/mystictavern.jpg" width="350em">

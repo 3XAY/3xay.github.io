@@ -13,7 +13,7 @@ hide:
 
 ### What is Counterspell?
 <img align="right" src="https://3xay.github.io/assets/Counterspell/counterspellLogo.png">
-Counterspell was a global game jam hosted by [Hack Club](../HackClub) in over 50 cities! There were over 1,500 participants and more than 600 games were submitted.
+Counterspell was a global game jam hosted by [Hack Club](https://3xay.github.io/Projects/HackClub/HackClub/) in over 50 cities! There were over 1,500 participants and more than 600 games were submitted.
 
 The purpose was to get teens to meet each other and learn how to create something amazing. The theme was "You are your own worst enemy" and it was really interesting
 to see everyone's interpretation of that. There were 24 and 12 hour events, unfortunately, ours was only 12 hours, but it was still great.
