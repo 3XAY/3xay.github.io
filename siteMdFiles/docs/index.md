@@ -4,6 +4,9 @@ hide:
   - toc
 ---
 
+<!-- NEED TO ADD PHOTOS TO HACKPHS BLOG POST-->
+
+
 ## Skills
 
 * `Programming` - Over 8 years of programming experience in Python, Scratch, and Java.

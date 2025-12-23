@@ -71,3 +71,4 @@ If you've ever worked with circuits, you're familiar with the term "magic smoke"
 
 ### The result
 Overall, it ended up pretty good. Sure, it looks a little weird, but it works! If I were to make this again, I would think a little harder about the microcontroller placement, adding the right diodes, and making the USB-C port compatible with USB-PD chargers by adding resistors on the CC pins (which this port doesn't have). Some nice quality of life improvements would be an integrated battery, wireless control, more / brighter lights (possible with USB-C PD or just limiting the brightness depending on the actual power usage) and also a few pads that I can use for powering other devices. I actually ended up powering a dead battery-powered toy truck with the exposed 5V power inputs. All in all, I'm pretty happy with the project.
+<img align="right" src="https://3xay.github.io/assets/Pixeldust/finallightbox.png" width="1300em" style="padding-top: 2em;">
