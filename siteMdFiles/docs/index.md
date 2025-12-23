@@ -14,8 +14,6 @@ hide:
 ***
 
 ## What I'm Working On
-    
-    Pixeldust - Writing the article for the YSWS
 
     Converge - Writing the article for the YSWS
 
