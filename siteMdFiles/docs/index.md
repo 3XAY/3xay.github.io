@@ -4,7 +4,12 @@ hide:
   - toc
 ---
 
-<!-- NEED TO ADD PHOTOS TO HACKPHS BLOG POST-->
+<!-- TODO
+* Add photos to HackPHS blog
+* Finish Converge page
+* Create homelab page
+* Need to possibly remove asylum page (never ended up happening)
+-->
 
 
 ## Skills

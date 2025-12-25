@@ -25,5 +25,7 @@ You can see everything I've done (related to Hack Club) below:
 #### [Pixeldust](Pixeldust.md)
 | A YSWS about using LEDs
 
+<!--
 #### [Converge](Converge.md)
 | A YSWS about building bots
+-->
